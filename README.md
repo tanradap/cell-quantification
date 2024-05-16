@@ -1,6 +1,6 @@
 # cell-quantification
 
-This repository contains python scripts & jupyter notebooks used to create the neuronal and glial cell classification pipeline for PSP postmortem brain. This pipeline did not end up performing well, but the backbone is useful for other purposes e.g. creating the tau quantitifaction pipeline. Folders are detailed below:
+This repository contains python scripts & jupyter notebooks used to create the neuronal and glial cell classification pipeline for PSP postmortem brain. Morphological and slide staining intensity were used as features for cell classification, which were extracted from cells using QuPath software. This pipeline did not end up performing well, but the backbone is useful for other purposes e.g. creating the tau quantitifaction pipeline. Cell classes include neurons, astrocytes, oligodendrocytes, and others. Folders are detailed below:
 
 **Tuning_parameters:** for tuning hyperparameters of the classification model.
 
